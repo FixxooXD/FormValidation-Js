@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>SignUP</title>
+    <style>
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+        textarea:focus, input:focus{
+    outline: none;
+}
+    </style>
+</head>
+<body>
+    <div id="Container" class="flex justify-center w-full mt-28">
+        <div id="content" class="flex flex-col border-2 w-96 h-2/3">
+            <div id="introPart" class="flex flex-col">
+                <div><span class="text-2xl font-semibold">Getting Started</span></div>
+                <div><span class="font-semibold text-xs" >Already have an account ?</span></div>
+                <div class="text-orange"><span>log in</span></div>
+            </div>
+        <div id="loginOptions" class="flex flex-row  justify-around">
+            <div id="googleLogin" class="border-2" ><i class="fa-brands fa-google"></i>sign up</div>
+            <div id="faceBookLogin" class="border-2" ><i class="fa-brands fa-facebook-f"></i>sign up</div>
+        </div>    
+        <div class="flex justify-center">Or</div>
+            <form class="flex flex-col px-8" action="">
+                <label class="flex flex-col" for="">Name
+                    <div class="border-2 px-2">
+                        <i class="fa-regular fa-user"></i>
+                    <input type="text" name="" id="">
+                    </div>
+                </label>
+                <label class="flex flex-col" for="">Email
+                    <div class="border-2 px-2">
+                        <i class="fa-regular fa-envelope"></i>
+                    <input type="email" name="" id=""></label>
+                  </div>
+                <label class="flex flex-col" for="">Password
+                    <div class="border-2 px-2">
+                        <i class="fa-solid fa-lock"></i>
+                    <input  type="password" name="" id=""></label>
+                </div>
+                <label class="flex flex-col" for="">Confirm Password
+                    <div class="border-2 px-2">
+                        <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="" id=""></label>
+                </div>
+                <button type="submit" class="border-2 mt-4 mb-10">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
